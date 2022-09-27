@@ -1,5 +1,6 @@
 builds:
-  - main: ./rmmagent
+  - main: rmmagent
+    dir: rmmagent
 
 release:
   # Repo in which the release will be created.
