@@ -1,5 +1,10 @@
 builds:
   - dir: rmmagent
+    goos:
+      - darwin
+      - linux
+      - windows
+    binary: rmmagent
 
 release:
   # Repo in which the release will be created.
