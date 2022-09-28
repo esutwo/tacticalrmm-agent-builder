@@ -34,6 +34,6 @@ jobs:
         uses: goreleaser/goreleaser-action@master
         with:
           version: latest
-          args: release --rm-dist
+          args: release --rm-dist --release-notes ./readme.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
